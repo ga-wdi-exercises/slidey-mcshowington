@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Slidey McShowington</title>
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css" />
+    <style>
+      *
+      {
+        margin:0;
+        padding:0;
+        border:0;
+        box-sizing:border-box;
+        font-family:"Josefin Sans", sans;
+      }
+      html, body, #background 
+      {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background-color:black;
+      }
+      #background
+      {
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center center;
+      }
+      #inputs
+      {
+        position:absolute;
+        width:100%;
+        bottom:1em;
+      }
+      input
+      {
+        display:block;
+        margin:0 auto;
+        text-align:center;
+        font-size:36px;
+        padding:.5em;
+        border-radius:36px;
+        border-color:white;
+        border-width:2px;
+        border-style:solid;
+        background-color:transparent;
+        color:white;
+        opacity:0.1;
+        transition: background-color .1s, opacity .2s;
+      }
+      input:hover,
+      input:focus
+      {
+        outline:0;
+        background-color:rgba(255,255,255,0.3);
+        opacity:.7;
+      }
+      #timing
+      {
+        width:72px;
+      }
+    </style>
+    <script src="jquery.js"></script>
+    <script src="slidey_js.js"></script>
+  </head>
+  <body>
+
+    <div id="background" style="background-image:url('');"></div>
+
+    <div id="inputs">
+      <input type="text" id="word" value="nature" />
+    </div>
+
+  </body>
+</html>
