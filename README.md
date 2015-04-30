@@ -8,6 +8,9 @@ Please touch only the `slidey_js.js` file.
 
 Once you've completed the assignment, see how many of the suggestions below you can incorporate!
 
+Here's an example:
+http://ga-dc.github.io/slidey-mcshowington/
+
 ---
 
 **Make it so** that when the image is changing, the old image fades out, and the new image fades in.
