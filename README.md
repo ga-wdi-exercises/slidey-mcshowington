@@ -2,7 +2,7 @@
 
 Life's easier when it takes place against a backdrop of soothing pictures.
 
-Create a webpage, the background of which is a slideshow that cycles through at least 5 different images. (I recommend using images hosted on Imgur.com.)
+Create a webpage, the background of which is a slideshow that cycles through 5 different images, changing the background every 3 seconds. (I recommend using images hosted on Imgur.com.)
 
 Please touch only the `slidey_js.js` file.
 
